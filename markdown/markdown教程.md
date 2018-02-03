@@ -113,6 +113,9 @@ if __name__ == '__main__':
 
 怎么把我的日志上传到云端呢，只能通过git上传了，所以sublime得安装插件
 
+6. sublime怎么才能够画图呢？
+解决方案：plantuml + sublime
+
 ## 国人开发的小书匠软件
 
 
