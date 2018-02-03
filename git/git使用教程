@@ -1,0 +1,18 @@
+git amend
+git add --all
+git commit --amend（）
+git log --stat
+
+git fetch 
+
+git rebase (同步orgin+自己的修改)
+
+git rebase -i HEAD~4
+
+git add -A 提交所有变化
+git add -u 提交被修改(modified)和被删除（deleted）文件，不包括新文件
+git add . 提交新文件和被修改的文件，不包括删除文件
+
+git commit -m "message" commit提交时候写commit 
+
+git push 将本地文件上传到github上面
