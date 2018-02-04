@@ -1,0 +1,16 @@
+->aCustomer:statement
+activate aCustomer #FFBBBB
+
+aCustomer -> aCustomer: *[for all rentals]
+activate aCustomer #DarkSalmon
+
+aCustomer -> aRental:getMovie
+
+aCustomer -> aMovie:getPriceCode
+
+aCustomer -> aRental:getDaysRented
+
+deactivate aCustomer
+<-aCustomer:done
+deactivate aCustomer
+
